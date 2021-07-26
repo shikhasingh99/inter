@@ -1,5 +1,6 @@
 import React, { Component } from 'react'  
 
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 export class RegisterComp extends Component { 
     render() {  
         return (  
@@ -12,7 +13,7 @@ export class RegisterComp extends Component {
         <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
         <h3>Welcome</h3>
         <p>You are 30 seconds away from earning your own money!</p>
-        <input type="submit" name="" value="Login"/><br/>
+        <Link to="login"><input type="submit" name="" value="Login"/> </Link><br/>
     </div>
     <div class="col-md-9 register-right">
         <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">

@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';  
 import Layout  from './layout/layout'  
 
-import { BrowserRouter as Router, Route, Switch,Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 // import { Link } from 'react-router';
 
  import Header from "./layout/header"; 
