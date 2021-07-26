@@ -26,7 +26,8 @@ export class RegisterComp extends Component {
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <h3 class="register-heading">Apply as a Employee</h3>
-                <div class="row register-form">
+                <form class="needs-validation" novalidate>
+                <div class="row register-form RegForm ">
                     <div class="col-md-6">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="First Name *" value="" />
@@ -74,7 +75,9 @@ export class RegisterComp extends Component {
                         <input type="submit" class="btnRegister"  value="Register"/>
                     </div>
                 </div>
+                </form>
             </div>
+        
             <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                 <h3  class="register-heading">Apply as a Employeer</h3>
                 <div class="row register-form">

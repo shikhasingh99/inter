@@ -27,10 +27,10 @@ export class Header extends Component {
           Register
               </Link></li> */}
           {/* <li><a href="blog.html">Blog</a></li> */}
-          <li class="dropdown"><a href="#"><span>Login</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a><span>Login</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Employer</a></li>
-              <li><a href="#">Employee</a></li>
+              <li><a href="login">Employer</a></li>
+              <li><a href="loginemployee">Employee</a></li>
                           </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>

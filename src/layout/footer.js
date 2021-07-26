@@ -21,7 +21,9 @@ export class Footer extends Component {
         </p>
       </div>
 
-      <div class="col-lg-2 col-md-6 footer-links">
+      <div class="col-lg-6 col-md-6 ">
+      <div class="row">
+      <div class="col-lg-6 col-md-6 footer-links">
         <h4>Useful Links</h4>
         <ul>
           <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
@@ -31,7 +33,19 @@ export class Footer extends Component {
           <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
         </ul>
       </div>
-
+     
+      <div class="col-lg-6 col-md-6 footer-links">
+        <h4>Useful Links</h4>
+        <ul>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Login</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Register</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Opening</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Apply </a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+        </ul>
+      </div>
+      </div>
+      </div>
       <div class="col-lg-3 col-md-6 footer-links">
         <h4>Our Services</h4>
         <ul>

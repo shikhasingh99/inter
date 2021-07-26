@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';  
 import './App.css';  
 import Layout  from './layout/layout'  
+
 import { BrowserRouter as Router, Route, Switch,Link } from "react-router-dom";
 // import { Link } from 'react-router';
 
@@ -10,6 +11,8 @@ import { BrowserRouter as Router, Route, Switch,Link } from "react-router-dom";
  import Footer from "./layout/footer"; 
  import Register from "./layout/register"; 
 import RegisterFunction from './layout/register';
+import LoginFunction from './layout/login';
+import LoginEmployee from './layout/loginemployee';
 import About from './layout/about';
 // import { HashRouter, Route, Switch } from 'react-router-dom';  
 function App() {  
@@ -20,6 +23,10 @@ function App() {
       
         <Route exact={true} path={"/register"} component={RegisterFunction} />
         <Route exact={true} path={"/about"} component={About} />
+        <Route exact={true} path={"/login"} component={LoginFunction} />
+        <Route exact={true} path={"/loginemployee"} component={LoginEmployee} />
+
+        
         <Route path={"/"} component={Home} />
          
           {/* <Route path={RouteEnum.AddCustomer} component={AddCustomerPage} />
