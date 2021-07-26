@@ -430,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10%;
   margin-top: 10%;
 }
-.btnRegister{
+.btnRegister {
   float: right;
   margin-top: 10%;
   border: none;
@@ -2220,7 +2220,7 @@ section {
 }
 
 
-input[type=button], input[type=submit], input[type=reset]  {
+#login, .lgbtn  {
   background-color: #111111;
   border: none;
   color: white;
@@ -2230,8 +2230,9 @@ input[type=button], input[type=submit], input[type=reset]  {
   display: inline-block;
   text-transform: uppercase;
   font-size: 13px;
-  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
-  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  margin: 10px;
+  /* -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4); */
+  /* box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4); */
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
   margin: 5px 20px 40px 20px;
@@ -2242,12 +2243,12 @@ input[type=button], input[type=submit], input[type=reset]  {
   transition: all 0.3s ease-in-out;
 }
 
-input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+.lgbtn, .lgbtn:hover, .lgbtn:hover, .lgbtn:hover  {
   background: #111111;
   color: #fff;
 }
 
-input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+.lgbtn, .lgbtn:active, input[type=submit]:active, input[type=reset]:active  {
   -moz-transform: scale(0.95);
   -webkit-transform: scale(0.95);
   -o-transform: scale(0.95);
@@ -2255,7 +2256,7 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
   transform: scale(0.95);
 }
 
-input[type=text] {
+#login, #password {
   background-color: #f6f6f6;
   border: none;
   color: #0d0d0d;
@@ -2275,7 +2276,7 @@ input[type=text] {
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
 }
-
+/* 
 input[type=text]:focus {
   background-color: #fff;
   border-bottom: 2px solid #5fbae9;
@@ -2283,7 +2284,7 @@ input[type=text]:focus {
 
 input[type=text]:placeholder {
   color: #cccccc;
-}
+} */
 
 
 

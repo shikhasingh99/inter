@@ -13,7 +13,7 @@ export class LoginComp extends Component {
     <form>
       <input type="text" id="login" class="fadeIn second" name="login" placeholder="Name" />
       <input type="text" id="password" class="fadeIn third" name="login" placeholder="Password" />
-      <input type="submit" class="fadeIn fourth" value="Log In" />
+      <input type="submit" class="fadeIn fourth lgbtn" value="Log In" />
     </form>
     <div id="formFooter">
       <a class="underlineHover" href="#">Forgot Password?</a>

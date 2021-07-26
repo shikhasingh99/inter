@@ -7,9 +7,10 @@ export class AboutComponent extends Component {
             <div> 
                 <section id="about" class="about section-bg">
 <div class="container" data-aos="fade-up">
-
+<h2>About US</h2>
   <div class="row no-gutters">
     <div class="content col-xl-5 d-flex align-items-stretch">
+      
       <div class="content">
         <h3>Voluptatem dignissimos provident quasi</h3>
         <p>
