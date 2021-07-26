@@ -16,7 +16,7 @@ export class Header extends Component {
             <Router >
          <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
-      <h1 class="logo me-auto"><a href="index.html">Intern<span>.</span></a></h1>
+      <h1 class="logo me-auto"><a href="index.html">ODC<span>.</span></a></h1>
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="/">Home</a></li>
@@ -27,7 +27,7 @@ export class Header extends Component {
           Register
               </Link></li> */}
           {/* <li><a href="blog.html">Blog</a></li> */}
-          <li class="dropdown"><a><span>Login</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="login"><span>Login</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="login">Employer</a></li>
               <li><a href="loginemployee">Employee</a></li>

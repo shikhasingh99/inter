@@ -11,7 +11,7 @@ export class Footer extends Component {
                 <div class="row">
 
       <div class="col-lg-3 col-md-6 footer-contact">
-        <h3>Presento<span>.</span></h3>
+        <h3>ODC<span>.</span></h3>
         <p>
           A108 Adam Street <br/>
           New York, NY 535022<br/>
@@ -67,7 +67,7 @@ export class Footer extends Component {
 
   <div class="me-md-auto text-center text-md-start">
     <div class="copyright">
-      &copy; Copyright <strong><span>Presento</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>ODC</span></strong>. All Rights Reserved
     </div>
   </div>
   <div class="social-links text-center text-md-end pt-3 pt-md-0">
