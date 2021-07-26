@@ -26,21 +26,20 @@ export class Footer extends Component {
       <div class="col-lg-6 col-md-6 footer-links">
         <h4>Useful Links</h4>
         <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="/about">About us</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Contact US</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Apply </a></li>
         </ul>
       </div>
      
       <div class="col-lg-6 col-md-6 footer-links">
         <h4>Useful Links</h4>
         <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Login</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Register</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="/login">Login</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="/register">Register</a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="#">Opening</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Apply </a></li>
+          
           <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
         </ul>
       </div>
@@ -53,7 +52,7 @@ export class Footer extends Component {
           <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+       
         </ul>
       </div>
 
