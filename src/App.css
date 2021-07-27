@@ -2150,7 +2150,7 @@ section {
 .footer-widget-heading h3::before {
   content: "";
   position: absolute;
-  left: 0;
+  /* left: 0; */
   bottom: -15px;
   height: 2px;
   width: 50px;
