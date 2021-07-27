@@ -58,9 +58,9 @@ export class Footer extends Component {
         <div class="copyright-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="col-xl-12 col-lg-12 text-center">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2018, All Right Reserved <a href="/">ODC</a></p>
+                            <p>Copyright &copy; 2021, All Right Reserved <a href="/">ODC</a></p>
                         </div>
                     </div>
                 </div>
