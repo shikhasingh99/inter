@@ -12,8 +12,8 @@ export class Home extends Component {
 <div class="container" data-aos="zoom-out" data-aos-delay="100">
   <div class="row">
     <div class="col-xl-6">
-      <h1>Lorem Ipsum has been the industry'</h1>
-      <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+      <h1>Hire the best hoteliers.</h1>
+      {/* <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2> */}
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
   </div>
