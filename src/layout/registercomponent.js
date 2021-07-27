@@ -26,7 +26,7 @@ export class RegisterComp extends Component {
         </ul>
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                <h3 class="register-heading">Apply as a Employee</h3>
+                {/* <h3 class="register-heading">Apply as a Employee</h3> */}
                 <form class="needs-validation" novalidate>
                 <div class="row register-form RegForm ">
                     <div class="col-md-6">
@@ -80,7 +80,7 @@ export class RegisterComp extends Component {
             </div>
         
             <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                <h3  class="register-heading">Apply as a Employeer</h3>
+                {/* <h3  class="register-heading">Apply as a Employeer</h3> */}
                 <div class="row register-form">
                     <div class="col-md-6">
                         <div class="form-group">
