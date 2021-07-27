@@ -16,18 +16,18 @@ export class Header extends Component {
             <Router >
          <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
-      <h1 class="logo me-auto"><a href="index.html">ODC<span>.</span></a></h1>
+      <h1 class="logo me-auto"><a href="/">ODC<span>.</span></a></h1>
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="/about">About</a></li>
-          <li><a class="nav-link scrollto" href="/register">Register</a></li>
+          <li class="highlight"> <a class="nav-link scrollto " href="/register">Register</a></li>
          
           {/* <li> <Link to="register" className="nav-link scrollto">
           Register
               </Link></li> */}
           {/* <li><a href="blog.html">Blog</a></li> */}
-          <li class="dropdown"><a href="login"><span>Login</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown highlight"><a href="login"><span>Login</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="login">Employer</a></li>
               <li><a href="loginemployee">Employee</a></li>

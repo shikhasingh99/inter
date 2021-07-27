@@ -512,12 +512,24 @@ h1, h2, h3, h4, h5, h6 {
   background: #e03a3c;
   border: 2px solid #e03a3c;
 }
-
+.highlight{
+  background: red;
+    align-items: center;
+    margin-left: 12px;
+    padding: 0;
+    width: 100px;
+    border-radius: 17px;
+    text-align: center;
+    color: #fff;
+}
+.highlight a{ color: #fff !important; margin-left: -6px;}
 #hero .btn-get-started:hover {
   background: transparent;
   border-color: #fff;
 }
-
+.logintop{
+  top:77px
+}
 @media (max-width: 768px) {
   #hero {
     text-align: center;
