@@ -3,84 +3,71 @@ import React, { Component } from 'react'
 export class Footer extends Component {  
     render() {  
         return (  
-            <div> 
-                <footer id="footer">
-
-            <div class="footer-top">
+      
+<footer class="footer-section">
+        <div class="container">
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                                <h3>ODC</h3>
+                            </div>
+                            <div class="footer-text">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#">Expert Team</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Latest News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address"/>
+                                    <button><i class='fab fa-telegram-plane'></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
             <div class="container">
                 <div class="row">
-
-      <div class="col-lg-3 col-md-6 footer-contact">
-        <h3>ODC<span>.</span></h3>
-        <p>
-          Uttam Nagar <br/>
-          Delhi, <br/>
-          India <br/><br/>
-          <strong>Phone:</strong> +91 8826100711<br/>
-          <strong>Email:</strong> hello@odcjobs.in<br/>
-        </p>
-      </div>
-
-      <div class="col-lg-6 col-md-6 ">
-      <div class="row">
-      <div class="col-lg-6 col-md-6 footer-links">
-        <h4>Useful Links</h4>
-        <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="/about">About us</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Contact US</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Apply </a></li>
-        </ul>
-      </div>
-     
-      <div class="col-lg-6 col-md-6 footer-links">
-        <h4>Useful Links</h4>
-        <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="/login">Login</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="/register">Register</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Opening</a></li>
-          
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-        </ul>
-      </div>
-      </div>
-      </div>
-      <div class="col-lg-3 col-md-6 footer-links">
-        <h4>Our Services</h4>
-        <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-       
-        </ul>
-      </div>
-
-   
-
-    </div>
-  </div>
-</div>
-
-<div class="container d-md-flex py-4">
-
-  <div class="me-md-auto text-center text-md-start">
-    <div class="copyright">
-      &copy; Copyright <strong><span>ODCJOBS</span></strong>. All Rights Reserved
-    </div>
-  </div>
-  <div class="social-links text-center text-md-end pt-3 pt-md-0">
-    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-    <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-  </div>
-</div>
-</footer>
-
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-</div>  
+                    <div class="col-xl-12 col-lg-12 text-center">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2021, All Right Reserved <a href="/">ODC</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+ 
         )  
     }  
 }  
